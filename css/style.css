@@ -88,7 +88,7 @@
     display: grid;
     margin: -35% 5%;
     color:white;
-
+position: relative;
   }
   .section1 >div>p {
       margin: 10% 0;
@@ -102,16 +102,16 @@
   }
   .icons2>.right {
     content: "\f061";
-    position: fixed;
+    position: absolute;
     top: 48%;
     right: 60px;
     font-size: 30px;
   }
   .icons2>.left{
     content: "\f061";
-    position: fixed;
+    position: absolute;
     top: 48%;
-    left: 5px;
+    left: -15px;
     font-size: 30px;
   }
   .section1>.circles {
@@ -827,10 +827,11 @@ li {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        font-size: 9px;
+        font-size: 13px;
         display: grid;
-        margin: -44% 27%;
+        margin: -41% 27%;
         color: white;
+        min-width: 77%;
     }
     #hoho>button {
           padding: 9px;
@@ -840,7 +841,10 @@ li {
           color: white;
           height: -10px;
       }
-
+#hoho h1 {
+    margin: 0;
+}
+}
   .icons2>.right {
     content: "\f061";
     position: fixed;
